@@ -32,3 +32,45 @@ The TCP/IP (Transmission Control Protocol/Internet Protocol) model is a conceptu
 4. **Application Layer:** Interacts directly with end-user applications, providing network services.
 
 The TCP/IP model is a practical and widely used framework for designing and implementing network protocols. It is the foundation of the internet, providing a standard that enables diverse devices and applications to communicate seamlessly across a global network. While it is conceptually similar to the OSI (Open Systems Interconnection) model, which has seven layers, the TCP/IP model is more commonly used in practice.
+
+The OSI (Open Systems Interconnection) model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. Developed by the International Organization for Standardization (ISO), the OSI model provides a systematic way to understand and design network architecture. Each layer in the model performs specific functions, and the layers work together to facilitate communication between different systems. The seven layers of the OSI model, from the lowest to the highest, are:
+
+1. **Physical Layer:**
+   - **Function:** Deals with the physical connection between devices. It specifies the electrical, mechanical, and procedural aspects of the physical medium.
+   - **Examples:** Cables, connectors, hubs.
+
+2. **Data Link Layer:**
+   - **Function:** Ensures reliable point-to-point or point-to-multipoint communication over the physical layer. It handles error detection and correction.
+   - **Examples:** Ethernet, Wi-Fi (802.11), MAC addresses.
+
+3. **Network Layer:**
+   - **Function:** Manages the routing and forwarding of data packets between devices across different networks. It deals with logical addressing and packet forwarding.
+   - **Examples:** IP (Internet Protocol), ICMP (Internet Control Message Protocol), routers.
+
+4. **Transport Layer:**
+   - **Function:** Provides end-to-end communication, ensuring data integrity and reliability. It breaks down large messages into smaller segments and reassembles them at the destination.
+   - **Examples:** TCP (Transmission Control Protocol), UDP (User Datagram Protocol).
+
+5. **Session Layer:**
+   - **Function:** Manages sessions or connections between applications. It establishes, maintains, and terminates communication sessions.
+   - **Examples:** NetBIOS, RPC (Remote Procedure Call).
+
+6. **Presentation Layer:**
+   - **Function:** Translates data between the application layer and the lower layers. It handles data formatting, encryption, and compression.
+   - **Examples:** JPEG, GIF, SSL/TLS.
+
+7. **Application Layer:**
+   - **Function:** Provides network services directly to end-users and applications. It acts as an interface between the application and the network.
+   - **Examples:** HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol).
+
+**Key Points:**
+
+- The OSI model serves as a reference framework for understanding and designing network architectures.
+- Each layer in the model performs specific functions, and the layers work together to enable communication between different systems.
+- The model is a conceptual tool and is not directly implemented in networking hardware or software.
+
+Understanding the OSI model helps network professionals troubleshoot issues, design networks, and communicate effectively about different networking concepts and protocols. It's important to note that while the OSI model is a valuable conceptual framework, the more widely adopted TCP/IP model is often used in practice for the design and implementation of network protocols and systems.
+
+### Refrences:
+
+- https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/
