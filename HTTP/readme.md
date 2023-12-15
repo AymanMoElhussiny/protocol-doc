@@ -21,7 +21,7 @@ Here's a comparison table between HTTP (Hypertext Transfer Protocol) and HTTPS (
 | Feature                            | HTTP                                | HTTPS                                               |
 |------------------------------------|-------------------------------------|-----------------------------------------------------|
 | **Security**                       | Not secure                          | Secure (data is encrypted during transmission)      |
-| **Encryption**                     | No encryption                       | Uses [SSL/TLS](SSL-TLS) encryption for secure data transfer    |
+| **Encryption**                     | No encryption                       | Uses [SSL/TLS](SSL-TLS.md) encryption for secure data transfer    |
 | **URL Scheme**                     | Begins with "http://"                | Begins with "https://"                               |
 | **Default Port**                   | 80                                  | 443                                                 |
 | **Data Integrity**                 | No guarantee                        | Ensures data integrity during transmission          |
